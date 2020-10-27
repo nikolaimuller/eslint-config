@@ -42,6 +42,13 @@ module.exports = {
     'jest/prefer-to-have-length': 'warn',
     'jest/valid-expect': 'error',
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
   overrides: [
     {
       files: ['*.js'],

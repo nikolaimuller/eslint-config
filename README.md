@@ -3,11 +3,11 @@ Eslint config by mullerstd
 ## Install
 
 ```bash
-yarn add @mullerstd/eslint-config
+yarn add -D @mullerstd/eslint-config
 
 // or using npm
 
-npm i @mullerstd/eslint-config
+npm i @mullerstd/eslint-config --save-dev
 ```
 
 ## Usage
