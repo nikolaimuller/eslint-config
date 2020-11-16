@@ -1,6 +1,6 @@
 {
   "name": "@mullerstd/eslint-config",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "eslint config by mullerstd",
   "main": "index.js",
   "author": "Nick <nikolaymuller@gmail.com>",
@@ -15,7 +15,6 @@
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "eslint-config-prettier": "^6.13.0",
-    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.1.2",

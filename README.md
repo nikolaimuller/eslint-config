@@ -13,19 +13,12 @@ npm i @mullerstd/eslint-config --save-dev
 ## Usage
 
 ```json
-// .eslintrc
-
-{
-  "extends": "@mullerstd/eslint-config"
-}
-```
-
-Prettier config (optional)
-
-```json
 // package.json
 
 {
-  "prettier": "@mullerstd/eslint-config/prettier"
+  "prettier": "@mullerstd/eslint-config/prettier",
+  "eslint": {
+    "extends": "@mullerstd/eslint-config"
+  }
 }
 ```
