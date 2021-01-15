@@ -22,9 +22,12 @@ module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin', 'jest'],
   rules: {
     'react/prop-types': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
