@@ -19,7 +19,7 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint',
   ],
-  plugins: ['@typescript-eslint/eslint-plugin', 'jest'],
+  plugins: ['@typescript-eslint/eslint-plugin'],
   rules: {
     'react/prop-types': 'off',
     'react-hooks/rules-of-hooks': 'error',
@@ -38,11 +38,6 @@ module.exports = {
         allowExpressions: true,
       },
     ],
-    'jest/no-disabled-tests': 'warn',
-    'jest/no-focused-tests': 'error',
-    'jest/no-identical-title': 'error',
-    'jest/prefer-to-have-length': 'warn',
-    'jest/valid-expect': 'error',
   },
   settings: {
     'import/resolver': {
